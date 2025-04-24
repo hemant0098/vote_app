@@ -1,0 +1,66 @@
+/* src/components/ResultsSection.css */
+
+.results-section {
+    /* height: 29rem; */
+    background-color: #cdeac3;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .results-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .results-container {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .result-card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    width: 220px;
+    position: relative;
+    transition: transform 0.3s;
+  }
+  
+  .result-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .result-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+  
+  .result-card h3 {
+    margin-top: 12px;
+    font-size: 1.2rem;
+  }
+  
+  .result-card p {
+    color: #334155;
+    margin-top: 8px;
+  }
+  
+  .result-card.winner {
+    border: 2px solid #0ea5e9;
+  }
+  
+  .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #0ea5e9;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 50px;
+    font-size: 0.8rem;
+  }
+  

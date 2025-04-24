@@ -1,0 +1,103 @@
+/* src/components/VotePage.css */
+
+.vote-page {
+    padding: 60px 20px;
+    background: #edf2f7;
+    text-align: center;
+  }
+  
+  .vote-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #1a202c;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .card {
+    perspective: 1000px;
+    width: 260px;
+  }
+  
+  .card-inner {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transform-style: preserve-3d;
+    transition: transform 0.4s ease;
+  }
+  
+  .card:hover .card-inner {
+    transform: rotateY(15deg) rotateX(5deg);
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .card-name {
+    margin: 16px 0 8px;
+    font-size: 1.3rem;
+    color: #2d3748;
+  }
+  
+  .vote-btn {
+    margin-bottom: 16px;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 8px;
+    background: #3182ce;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .vote-btn:hover {
+    background: #2b6cb0;
+  }
+  
+  .progress-wrap {
+    position: relative;
+    background: #e2e8f0;
+    height: 12px;
+    border-radius: 6px;
+    margin: 0 16px 16px;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background: #63b3ed;
+    border-radius: 6px;
+    transition: width 0.5s ease;
+  }
+  
+  .progress-text {
+    position: absolute;
+    top: -24px;
+    right: 16px;
+    font-size: 0.85rem;
+    color: #4a5568;
+  }
+  
+  .view-results {
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 1rem;
+    color: #3182ce;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .view-results:hover {
+    color: #2b6cb0;
+  }
+  

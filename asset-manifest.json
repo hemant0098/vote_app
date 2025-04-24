@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hemant0098/vote_app.git/static/css/main.88b846ad.css",
+    "main.js": "/hemant0098/vote_app.git/static/js/main.8ac7a311.js",
+    "index.html": "/hemant0098/vote_app.git/index.html",
+    "main.88b846ad.css.map": "/hemant0098/vote_app.git/static/css/main.88b846ad.css.map",
+    "main.8ac7a311.js.map": "/hemant0098/vote_app.git/static/js/main.8ac7a311.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88b846ad.css",
+    "static/js/main.8ac7a311.js"
+  ]
+}
